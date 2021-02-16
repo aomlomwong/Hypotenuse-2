@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/picBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+            >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/triangle"
+
+                />
+
+            <TextView
+                android:id="@+id/vtAResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a = ?"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="70dp"
+                />
+
+            <TextView
+                android:id="@+id/vtCResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a = ?"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="50dp"
+                />
+
+            <TextView
+                android:id="@+id/vtBResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a = ?"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="150dp"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+
+            >
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
